@@ -1,0 +1,25 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "traductor de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "keywords": [
+    "platzi",
+    "fundamentos",
+    "JS"
+  ],
+  "author": "Daniel <morillotorres@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.1"
+  }
+}
